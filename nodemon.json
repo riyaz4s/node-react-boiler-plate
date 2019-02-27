@@ -1,0 +1,23 @@
+{
+    "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "public"
+],
+    "verbose": true,
+    "execMap": {
+    "js": "node --harmony"
+},
+    "watch": [
+    "app",
+    "client",
+    "config",
+    "views",
+    "server.js",
+    "fake-services"
+],
+    "env": {
+    "NODE_ENV": "local"
+},
+    "ext": "js json hbs html scss"
+}
