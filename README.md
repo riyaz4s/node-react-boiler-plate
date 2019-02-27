@@ -1,1 +1,1 @@
-A curriculum based application
+A node react boiler plate
